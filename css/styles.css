@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+body {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    background-color: #0A0A23;
+    color: white; 
+}  
+    .special-gothic-expanded-one-regular {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+header {
+    
+        background-image: url("../images/IMG_6402.jpg") ;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    
+}
+
+header h1 {
+    color: skyblue;
+    margin: 0;
+    font-family: "Special Gothic Expanded One", sans-serif;
+      }
+
+      .nav-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .logo {
+        margin: 0;
+        font-size: 2em;
+    }
+    
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 100px 20px;
+    background: #24498f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30vh;
+    gap: 10px;
+}
+
+
+.headShot {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+
+section {
+    padding: 50px;
+    margin-top: 50px;
+}
+
+#biography, #music, #facts {
+    background-color: #1A1A2E;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p:last-child {
+    font-style: italic;
+    color: dodgerblue;
+    font-size: 0.9em;
+}
